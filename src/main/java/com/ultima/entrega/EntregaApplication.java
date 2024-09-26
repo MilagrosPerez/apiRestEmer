@@ -16,7 +16,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 				description = "API para manejar operaciones de facturacion con clientes , productos y ventas"
 		),
 		servers = {
-				@Server(url = "https://api-facturacion-production.up.railway.app", description = "Servidor de Producción"),
+				@Server(url = "https://apirestemer-production.up.railway.app", description = "Servidor de Producción"),
 				@Server(url = "http://localhost:8080", description = "Servidor Local")
 		}
 )
